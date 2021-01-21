@@ -1,0 +1,21 @@
+form{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    color: #999999;
+    font-size: 12px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+.campo :focus{
+    border: solid 1px #cccccc ;
+    padding: 10px;
+}
+.center-content{
+    text-align: center;
+}
