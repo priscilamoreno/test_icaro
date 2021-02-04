@@ -1,0 +1,82 @@
+
+      <fieldset>
+        <legend>Información personal</legend>
+        <p>
+          <label>
+            Género:
+            <select name="genero">
+              <option>Masculino</option>
+              <option>Femenino</option>
+              <option>No-binario</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label>
+            Ingresa tu nombre completo:
+            <input
+              text="text"
+              name="nombrecompleto"
+              placeholder="Nombre Completo"
+              size="10"
+              maxlength="10"
+              required
+            />
+          </label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferencias</legend>
+        <p>
+          <label>
+            Selecciona tus preferencias:<br />
+            <input type="checkbox" name="series" />Series<br />
+            <input type="checkbox" name="peliculas" />Peliculas<br />
+            <input type="checkbox" name="programasdetv" />Programas de tv<br />
+            <input type="checkbox" name="documentales" />Documentales<br />
+          </label>
+        </p>
+
+        <p>
+          <label>
+            ¿Cuántas series ves por mes?:<br />
+            <input type="radio" name="series" value="menosde10" />Menos de 10
+            por mes<br />
+            <input type="radio" name="series" value="de10a20" />De 10 a 20<br />
+            <input type="radio" name="series" value="masde20" />Más de 20<br />
+          </label>
+        </p>
+      </fieldset>
+
+      <p>
+        <label>
+          Selecciona tu pais: <br />
+          <select multiple name="pais">
+            <option value="argentina">Argentina</option>
+            <option value="españa">España</option>
+            <option value="mexico">Mexico</option>
+            <option value="canada">Canáda</option>
+            <option value="australia">Australia</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <label>
+          Deja tu mensaje:<br />
+          <textarea name="mensaje"></textarea>
+        </label>
+      </p>
+
+      <p>
+        <label>
+        Texto de solo lectura: <input type="text" name="textodesololectura" value="No modificar" readonly>
+          Texto de solo lectura sin copia: <input type="text" name="textodesololecturasincopia" value="No copiar" disabled>
+        </label>
+      </p>
+
+      <p><input type="reset" value="Reiniciar el formulario" /></p>
+      <p><input type="submit" value="Enviar formulario" /></p>
+    </form>
+  </body>
+</html>

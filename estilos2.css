@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    font-size:1000%;
+    text-decoration: underline;
+    color: red;
+}
+br{
+    font-display: ;
+}
+nav li{
+    display:inline;
+    padding-left:10px;
+    padding-right:3px;
+    font-size:100%;
+    color: black;
+}
+
+body{
+    background-color: aqua;
+    font-family: arial, sans-serif;
+
+}
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    border 1px solid rgba(0,0,0);
+}
+header {
+    background: rgba(red, green, black, alpha);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height:100px ;
+    color: white;
+    border-bottom: 3px black;
+
+}
+nav ul li {
+    float: left;
+    list-style: done;
+    margin: 10px;
+
+}
+footer {
+    text-align: left;
+    
+}
